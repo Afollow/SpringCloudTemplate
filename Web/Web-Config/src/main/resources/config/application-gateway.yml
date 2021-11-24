@@ -1,0 +1,17 @@
+
+server:
+  port: 8888
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user-web
+          uri: lb://WEB-CONTROLLER
+          predicates:
+            - Path= /controller/**
+          filters:
+            - StripPrefix=1
+
+  application:
+    name: web-gateway

@@ -1,0 +1,21 @@
+
+server:
+  port: 9001
+
+spring:
+  application:
+    name: web-controller
+  # spring不拦截错误，直接抛出
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+
+  # spring线程池配置内容
+  task:
+    pool:
+      corePoolSize: 4
+      maxPoolSize: 8
+      keepAliveSeconds: 60
+      queueCapacity: 20
