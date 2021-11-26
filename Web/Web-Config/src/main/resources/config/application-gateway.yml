@@ -6,7 +6,7 @@ spring:
   cloud:
     gateway:
       routes:
-        - id: user-web
+        - id: controller-web
           uri: lb://WEB-CONTROLLER
           predicates:
             - Path= /controller/**
