@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c354191-1592-47fb-833d-305b19629718" name="Changes" comment="update with Jerry">
+      <change afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/config/ControllerTInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/config/SpringMvcConfigurerAdapter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/WebControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/WebControllerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/config/AsyncConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/config/AsyncConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/controller/DemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/handler/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/handler/NotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/prove/FastDfsAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/prove/FastDfsAsync.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/prove/UserFindAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/prove/UserFindAsync.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +61,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Web/Web-GateWay/src/main/java/cn/chamas/webgateway/config" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -73,11 +69,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\soft\.weixin-2111\SpringCloudTemplate\Web\Web-GateWay\src\main\java\cn\chamas\webgateway\config" />
       <recent name="F:\soft\.weixin-2111\SpringCloud\Web\Web-Controller\src\main\java\cn\chamas\prove" />
       <recent name="F:\soft\.weixin-2111\SpringCloud\Service-Api\src\main\java\cn\chamas\prove" />
       <recent name="F:\soft\.weixin-2111\SpringCloud\Service-Api\src\main\resources" />
       <recent name="F:\soft\.weixin-2111\SpringCloud\Entity\src\main\resources" />
-      <recent name="F:\soft\.weixin-2111\SpringCloud\Entity\src\main\java\cn\chamas\prove" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.chamas.handler" />
@@ -176,7 +172,8 @@
       <workItem from="1637848359333" duration="11475000" />
       <workItem from="1637931571880" duration="4945000" />
       <workItem from="1637938343694" duration="415000" />
-      <workItem from="1637939128569" duration="1968000" />
+      <workItem from="1637939128569" duration="2112000" />
+      <workItem from="1637943940829" duration="4702000" />
     </task>
     <task id="LOCAL-00001" summary="update with Jerry">
       <created>1637936007907</created>
@@ -192,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637938672701</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update with Jerry">
+      <created>1637941129974</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1637941129974</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
