@@ -1,3 +1,7 @@
 package cn.chamas.dao;
 
-public interface InsertDao { }
+import cn.chamas.domain.ControllerUser;
+
+public interface InsertDao {
+    void user(ControllerUser controllerUser);
+}

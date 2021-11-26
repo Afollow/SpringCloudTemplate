@@ -5,10 +5,12 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 
 public class Tool {
-    public static Boolean isEmpty(String arg){
+    public static Boolean isEmpty(Object o){
         Boolean result = false;
-        if (arg.isEmpty() ||  arg == null || "null".equals(arg) || "undefined".equals(arg))
+        if(o == null || o.toString().isEmpty() || "null".equals(o.toString()) ||
+                "undefined".equals(o) || "not defined".equals(o)){
             result = true;
+        }
         return result;
     }
     public static String md5Encrypt(String arg){

@@ -4,9 +4,12 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="cn.chamas.dao.UpdateDao">
-    <update id="$" parameterType="$">
-        update $ set
-        <if test="$ !=null and $ != ''.trim()"> $ = '#{$}', </if>
-        where $ =  '#{$}'
+    <update id="user" parameterType="user">
+        update controller_user set
+        <if test="username != null and username != ''.trim()"> username = #{username}, </if>
+        <if test="gender != null and gender != ''.trim()"> gender = #{gender}, </if>
+        <if test="describe != null and describe != ''.trim()"> describe = #{describe}, </if>
+        <if test="birthday != null and birthday != ''.trim()"> birthday = #{birthday} </if>
+        where uid =  #{uid}
     </update>
 </mapper>

@@ -18,7 +18,7 @@ public class FastDfsAsync extends FastDfsProve{
     }
 
     @Override
-    public String getMinPath(String path) {
-        return super.getMinPath(path);
+    public String getPath(String path) {
+        return super.getPath(path);
     }
 }

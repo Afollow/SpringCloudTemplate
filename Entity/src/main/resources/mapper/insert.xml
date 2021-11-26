@@ -4,7 +4,7 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="cn.chamas.dao.InsertDao">
-    <insert id="$" parameterType="$">
-        insert into $ value (#{$}, #{$})
+    <insert id="user" parameterType="user">
+        insert into controller_user value (#{uid}, #{username}, #{gender}, #{describe}, #{birthday})
     </insert>
 </mapper>

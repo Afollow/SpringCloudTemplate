@@ -47,7 +47,7 @@ public class FastDfsProve extends FastDfsService{
         }
         return result;
     }
-    public String getMinPath(String path){
+    public String getPath(String path){
         String result;
         int index = path.lastIndexOf(".");
         String subPath = path.substring(0, index);

@@ -1,3 +1,7 @@
 package cn.chamas.dao;
 
-public interface DeleteDao { }
+import cn.chamas.domain.ControllerUser;
+
+public interface DeleteDao {
+    void user(ControllerUser controllerUser);
+}
