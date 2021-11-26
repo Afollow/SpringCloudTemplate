@@ -1,4 +1,4 @@
-package cn.chamas.config;
+package cn.chamas.controller.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

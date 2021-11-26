@@ -1,11 +1,12 @@
-package cn.chamas.controller;
+package cn.chamas.controller.controller;
+
 
 import cn.chamas.domain.ControllerUser;
 import cn.chamas.prove.InsertService;
 import cn.chamas.prove.UpdateService;
-import cn.chamas.prove.UserFindAsync;
 import cn.chamas.util.ResultBody;
 import cn.chamas.util.Tool;
+import cn.chamas.controller.prove.UserFindAsync;
 import lombok.SneakyThrows;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;

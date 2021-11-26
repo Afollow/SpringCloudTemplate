@@ -6,7 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="3c354191-1592-47fb-833d-305b19629718" name="Changes" comment="update with Jerry">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Web-Config/src/main/resources/config/application-gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Config/src/main/resources/config/application-gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/WebControllerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/WebControllerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/config/AsyncConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/config/AsyncConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/DemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/controller/DemoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/handler/NotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/handler/NotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/prove/FastDfsAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/prove/FastDfsAsync.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/prove/UserFindAsync.java" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web-Controller/src/main/java/cn/chamas/controller/prove/UserFindAsync.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +46,9 @@
         <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.4\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="21Mofp2EGUt4NF8UBossIrE1XNB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -112,11 +120,11 @@
       <module name="Web-Controller" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.chamas.*" />
+          <option name="PATTERN" value="cn.chamas.controller.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.chamas.WebControllerApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.chamas.controller.WebControllerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
@@ -167,7 +175,8 @@
       <workItem from="1637843743255" duration="3147000" />
       <workItem from="1637848359333" duration="11475000" />
       <workItem from="1637931571880" duration="4945000" />
-      <workItem from="1637938343694" duration="53000" />
+      <workItem from="1637938343694" duration="415000" />
+      <workItem from="1637939128569" duration="1968000" />
     </task>
     <task id="LOCAL-00001" summary="update with Jerry">
       <created>1637936007907</created>
@@ -176,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637936007907</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update with Jerry">
+      <created>1637938672701</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1637938672701</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

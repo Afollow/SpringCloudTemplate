@@ -1,6 +1,7 @@
-package cn.chamas.prove;
+package cn.chamas.controller.prove;
 
 import cn.chamas.domain.ControllerUser;
+import cn.chamas.prove.FindProve;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import java.io.IOException;
@@ -8,7 +9,7 @@ import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
 @Service
-public class UserFindAsync extends FindProve{
+public class UserFindAsync extends FindProve {
 
     @Async("asyncServiceExecutor")
     public CompletableFuture<List<ControllerUser>>byAll() throws IOException {
